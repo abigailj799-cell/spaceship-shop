@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Orbitron:wght@600&family=Quantico&display=swap" rel="stylesheet">
+<style>
+header, footer {
+    background-color: #434350;
+    color:#cae2ea;
+    display: flex;
+    justify-content: left;
+    font-size: 14px;
+    padding: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: #180a21da;
+    padding: 20px;
+    margin: 15px;
+}
+
+a:hover, input[type=radio][type=checkbox]:hover, label:hover {
+    cursor: url("images/cursoryippe_hover.png"), auto;
+}
+
+html {
+    cursor: url("images/cursoryippe.png"), auto;
+}
+
+body {
+    background-image: url(images/titanfall.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:#9dc5d3;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.orbitron {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.goldmansubmit {
+    font-family: "Goldman", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color:#88b0be;
+    background-color: #09242a;
+}
+
+.goldman-regular {
+    font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #191e28;
+    display: flex;
+    width: 100%;
+}
+
+.nav a {
+    float: left;
+    color: #b5e6ef;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #865e9c;
+    color: #122e34;
+}
+
+.nav a.active {
+    background-color: #3d3967;
+    color: #b5e6ef;
+    font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+    </style>
+</head>
+<body class="orbitron">
+    <div class="nav">
+        <a class="goldman-regular" href="Home.html">Home</a>
+        <a class="active" href="Feedback.html">Contact Us</a>
+    </div>
+
+    <header>
+        <h1 class="orbitron">Spacecrafts and Starships&trade;</h1>
+    </header>
+
+    <main>
+        <h3>Submit Questions or Feedback</h3>
+        <p><input type="text" class="goldmansubmit" placeholder="Enter Name here"></p>
+        <p><input type="email" class="goldmansubmit" placeholder="email@gmail.com"></p>
+        <p>Did you enjoy our products and our website?</p>
+    <ul>
+        <p><label><input type="radio" class="goldmansubmit"> Yes</input></label></p>
+        <p><label><input type="radio" class="goldmansubmit"> No</input></label></p>
+    </ul>
+    <p>How did you hear about us?</p>
+        <ul>
+            <p><label><input type="checkbox" class="goldmansubmit">Social Media</label></p>
+            <p><label><input type="checkbox" class="goldmansubmit">Friend or Relative</label></p>
+            <p><label><input type="checkbox" class="goldmansubmit">Online Ad</label></p>
+            <p><label><input type="checkbox" class="goldmansubmit">Other</label></p>
+        </ul>
+    <textarea class="goldmansubmit" rows="5" cols="40" placeholder="Type feedback here..."></textarea>
+        <p><input type="submit" class="goldmansubmit"></p>
+    </main>
+    <footer>
+        <p>&copy  Abigail Johnson</p>
+    </footer>
+</body>

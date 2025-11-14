@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Orbitron:wght@600&family=Quantico&display=swap" rel="stylesheet">
+<style>
+header, footer {
+    background-color: #434350;
+    color:#cae2ea;
+    display: flex;
+    justify-content: left;
+    font-size: 14px;
+    padding: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td {
+    border: #53588dc3;
+    border-style: dotted;
+    border-width: 1px;
+    border-collapse: collapse;
+    padding: 05px;
+    text-align: left, center, right;
+    width: 100%;
+}
+
+th {
+    background-color: #64256489;
+    padding: 13px;
+}
+
+caption {
+    padding: 10px;
+    font-size: 30px;
+}
+
+li, dd {
+    font-size: 17px;
+}
+
+main {
+    background-color: #180a21d3;
+    padding: 20px;
+    margin: 15px;
+}
+
+a:hover {
+    cursor: url("images/cursoryippe_hover.png"), auto;
+}
+
+html {
+    cursor: url("images/cursoryippe.png"), auto;
+}
+
+body {
+    background-image: url(images/background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:#9dc5d3;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.orbitron {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.goldmansubmit {
+    font-family: "Goldman", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color:#88b0be;
+    background-color: #09242a;
+}
+
+.goldman-regular {
+    font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #191e28;
+    display: flex;
+}
+
+.nav a {
+    float: left;
+    color: #b5e6ef;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #865e9c;
+    color: #122e34;
+}
+
+.nav a.active {
+    background-color: #3d3967;
+    color: #b5e6ef;
+    font-family: "Goldman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.div1 {
+    padding: 20px;
+}
+
+div.scroll-container {
+    background-color: #3eae9f44;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 30px;
+}
+
+div.scroll-container img {
+    padding: 20px;
+    width: auto;
+    height: 300px;
+    transition: ease;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+div.scroll-container img:hover {
+    transform: scale(1.2)
+}
+    </style>
+</head>
+<body class="orbitron">
+    <div class="nav">
+        <a class="active" href="Home.html">Home</a>
+        <a class="goldman-regular" href="Feedback.html">Contact Us</a>
+    </div>
+
+            <header>
+                <h1 class="orbitron">Spacecrafts and Starships&trade;</h1>
+            </header>
+            <main>
+                <table>
+                <caption>Spacecraft & Starship Inventory</caption>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                    </tr>
+                    <tr>
+                        <td>Nebulon Glider</td>
+                        <td>$150,099</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>F-9 Nexus Horizon</td>
+                        <td>$450,905</td>
+                        <td>Out of Stock</td>
+                    </tr>
+                    <tr>
+                        <td>B-15 Echostriker</td>
+                        <td>$1,000,990</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>C-1 Avian Cosmos</td>
+                        <td>$9,294,109</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>C-193 Starlight Hopper</td>
+                        <td>$15,392,000</td>
+                        <td>Out of Stock</td>
+                    </tr>
+                </table>
+            <div class="div1"></div>
+                <table>
+                    <caption>Fuel Prices</caption>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Solar Energy</td>
+                        <td>$150 p/5 gal</td>
+                    </tr>
+                    <tr>
+                        <td>Liquid Nitrogen</td>
+                        <td>$219 p/5 gal</td>
+                    </tr>
+                    <tr>
+                        <td>Blaze Rods</td>
+                        <td>$355 p/kg</td>
+                    </tr>
+                    <tr>
+                        <td>Nuclear Bulbs</td>
+                        <td>$1,430 p/kg</td>
+                    </tr>
+                    <tr>
+                        <td>Antimatter</td>
+                        <td>$2,509 p/3 gal</td>
+                    </tr>
+                </table>
+        <h2>Fuel Product Images</h2>
+        <div class="scroll-container">
+            <div class="image tp-transform">
+            <img src="images/solar_energy.png" alt="Solar Energy Bottle">
+            <img src="images/liquid hydrogen.jpg" alt="Forest">
+            <img src="images/blaze_rod.png" alt="Blaze Rod">
+            <img src="images/uranium bulb.jpg" alt="Nuclear Bulb">
+            <img src="images/antimatter.png" alt="Antimatter">
+        </div></div>
+            </main>
+            <main>
+                <h3>Available Products</h3>
+                <ul><h4>Fuel Types</h4>
+                    <li>Solar Energy (Solar Energy in bottles)</li>
+                    <li>Liquid Hydrogen (Pretty obvious)</li>
+                    <li>Blaze Rods (From blaze birds)</li>
+                    <li>Nuclear Bulbs (made of uranium, do not lick)</li>
+                    <li>Antimatter (DO NOT BREAK)</li>
+                </ul>
+                <dl>
+                    <dt>Nebulon Glider</dt>
+                        <dd>A lightweight sloop designed for stealth and agile maneuvers while mapping out space or spying on other fleets. Uses liquid hydrogen, blaze rods, and antimatter.</dd>
+                    <dt>F-9 Nexus Horizon</dt>
+                        <dd>A sleek combat ship model designed to be able to withstand the pull of a black hole and survive along the event horizon. Uses solar, antimatter, and blaze rods.</dd>
+                    <dt>B-15 Echostriker</dt>
+                        <dd>A fighter ship designed to be in and out, with timed explosives almost seeming like an echo of the sharship's presence. Uses liquid hydrogen, solar, and antimatter.</dd>
+                    <dt>C-1 Avian Cosmos</dt>
+                        <dd>One of the oldest cargo models created to be able to carry thousands of tons of weight, and for long term flights in the cosmos. Uses solar, nuclear, and antimatter.</dd>
+                    <dt>C-193 Starlight Hopper</dt>
+                        <dd>A cargo ship made to be able to carry lots of weight yet also travel at the speed of light for faster delivery, uses nuclear bulbs and antimatter.</dd>
+                </dl>
+            <h3>How to Install Fuel</h3>
+                <ol>
+                    <li>Open the fuel hatch</li>
+                    <li>Pour or drop in fuel or energy type</li>
+                    <li>Close fuel hatch, or it will all come out</li>
+                    <li>Start the engine and make sure everything is in place</li>
+                    <li>Take off, with doors closed</li>
+                </ol>
+            </main>
+            <main>
+                    <table>
+                    <caption>Top Annual Sales</caption>
+                    <tr>
+                        <th>Product</th>
+                        <th>People</th>
+                        <th>Money Earned</th>
+                    </tr>
+                    <tr>
+                        <td>Nebulon Glider</td>
+                        <td>1,203,439,000</td>
+                        <td>$1.8063499e+14</td>
+                    </tr>
+                    <tr>
+                        <td>Liquid Nitrogen</td>
+                        <td>992,294,103</td>
+                        <td>$217,312,408,557</td>
+                    </tr>
+                    <tr>
+                        <td>B-15 Echostriker</td>
+                        <td>740,294,204</td>
+                        <td>$7.410271e+14</td>
+                    </tr>
+                    <tr>
+                        <td>C-1 Avian Cosmos</td>
+                        <td>706,238,001</td>
+                        <td>$6.563853e+15</td>
+                    </tr>
+                    <tr>
+                        <td>Antimatter</td>
+                        <td>689,239,565</td>
+                        <td>$1.7293021e+12</td>
+                    </tr>
+                </table>
+            </main>
+        <div class="div1"></div>
+    <footer>
+        <p>&copy  Abigail Johnson</p>
+    </footer>
+</body>
